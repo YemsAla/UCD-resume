@@ -10,6 +10,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color:#e67e22;
 }
@@ -203,6 +207,7 @@ header {
     
     .social-links li a i:hover {
         background: #e84610;
+        font-size: 26px;
     }
 
    #footer-details {
@@ -214,8 +219,19 @@ header {
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
+    transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+}
+
+.three-reasons-icon:hover {
+    font-size: 36px;
+    color: #f6b47a;
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
+    
